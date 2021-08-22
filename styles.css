@@ -10,9 +10,11 @@ h1{
     height:70vh;
     max-width:955px;
     border:1px solid;
-    background-color: #FDE68A;
-    
-    
+    background-color: #FDE68A;   
+}
+
+.color{
+    color:#78350F
 }
 #cash-given{
     height:3vw;
