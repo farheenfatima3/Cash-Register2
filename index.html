@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cash Register</title>
+</head>
+<body>
+    <div class="container">
+    <h1>Enter price of purchase and cash given to know how many notes to get</h1>
+    
+<label style="font-weight: bold;" for="cash-given">Cash given</label>
+<input id="cash-given" type="number">
+<label style="font-weight: bold;" for="bill">Bill</label>
+<input id="bill" type="number">
+<button id="check-button">Check</button>
+<p id="error"></p>
+    <table>
+        <caption style="font-weight: bold;">Return the cash</caption>
+        <tr class="line">
+            <th>No of notes</th>
+            <td class="totalNotes"></td>
+            <td class="totalNotes"></td>
+            <td class="totalNotes"></td>
+            <td class="totalNotes"></td>
+            <td class="totalNotes"></td>
+            <td class="totalNotes"></td>
+            <td class="totalNotes"></td>
+            <td class="totalNotes"></td>
+            <td class="totalNotes"></td>
+        </tr>
+        <tr class="line">
+            <th class="totalNotes">Notes</th>
+            <td class="totalNotes">2000</td>
+            <th class="totalNotes">1000</th>
+            <th class="totalNotes">500</th>
+            <th class="totalNotes">200</th>
+            <th class="totalNotes">100</th>
+            <th class="totalNotes">50</th>
+            <th class="totalNotes">10</th>
+            <th class="totalNotes">5</th>
+            <th class="totalNotes">1</th>
+        </tr>
+    </div>
+    </table>
+</body>
+<script src="index.js" type="text/javascript"></script>
+</html>
